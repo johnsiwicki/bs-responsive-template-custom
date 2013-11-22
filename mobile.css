@@ -1,0 +1,366 @@
+
+/* Mobile Logo/Number styles - general */
+.phone-contact {
+    color: #074368;
+    position: relative;
+}
+
+.phone-contact p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.phone-contact a {
+    margin-bottom: 0.67em;
+}
+
+.phone-mobile-number {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+   
+}
+
+.phone-mobile-number a {
+     text-decoration: none;
+}
+
+.logo-mobile{
+    text-align:center;
+    margin-top: 50px;
+    padding:5px
+}
+
+@media all and (max-width: 600px) {
+    #content-wrap ul {
+        overflow: visible;
+    }
+
+    .related_pages_wrapper a.right {
+        width: 40%;
+    };
+}
+
+@media all and (max-width: 375px) {
+.phone-mobile-number {
+font-size: 1.5em !important;
+}
+    }
+
+/* Font-size updates */
+
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 1.4em !important;
+        line-height: 1.1em !important;
+    }
+
+    h2 {
+        font-size: 1.2em !important;
+        line-height: 1.1em !important;
+    };
+}
+
+
+ /* Mobile Nav Styles */
+
+#nav a#pull {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    #nav {
+    height: 45px;
+    width: 100%;
+    background: #262626;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size:1.0em;
+    line-height: 1.1em;
+    border-bottom: 0;
+    z-index: 901;
+    
+}
+#nav ul {
+    padding: 0;
+    margin: 0;
+    display: none;  
+    width: 100%;
+    overflow-x:hidden;
+}
+#nav li {
+    display: inline;
+    float: left;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #262626;
+}
+#nav a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding:9px 0;
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    background: #2e2e2e;  
+
+}
+
+ 
+   #nav  ul li.children:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: inset 5px;
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(255, 255, 255, 0.5);
+        border-left-style: solid;
+        margin-right: 15px;
+        margin-top: -4.5px;
+        position: absolute;
+        top: 15px;
+        right: 0;
+}
+ 
+    #nav ul ul a {
+        padding-left:20px;
+        line-height: 18px;
+    }
+
+       #nav ul ul ul a {
+        padding-left:30px;
+        line-height: 16px;
+    }
+    
+    #nav a:hover {
+        background:#444;
+    }   
+    
+    #nav a#pull {
+        display: block;
+        background-color: #0464B0;
+        width: 100%;
+        position: relative;
+        height:45px;
+;    }
+    #nav a#pull:after {
+        content:"";
+        width: 30px;
+        height: 30px;
+        color: #FFF;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 300px) {
+
+   #nav {
+    font-size:0.8em;
+   }
+}
+
+
+ /***City Page Fixes***/
+
+.citypage_testimonial_main .text {
+font-size:1em !important;
+}
+
+.submit #save {
+float: none !important;
+}
+
+@media only screen and (min-device-width: 546px) and (max-device-width: 597px){
+
+.citypage_sidebar {
+width: 36% !important;
+float: right;
+}
+
+
+.submit #save {
+font-size: 0.7em !important;
+float: none !important;
+}
+
+.citypage_testimonial_main { 
+    background:  none white !important;
+    padding:0 !important;
+}
+
+.citypage_contact_line1 {
+    font-size:1.2em;
+}
+
+.citypage_contact_line2 {
+    font-size:1.3em;
+}
+
+.citypage_2col_widget_wrapper .widget_testimonials, .citypage_2col_widget_wrapper .reviews_sidebar_widget {
+width: 100% !important;
+float: left;
+}
+
+ 
+.widget_citypage_map {
+    display: none;
+}
+
+.widget_contact .widget_title {
+    background:#008EC8 !important;
+}
+
+    }
+
+
+@media all and (max-width: 545px) {
+  .citypage_contact_line1 {
+    font-size:1.1em !important;
+}
+
+.citypage_contact_line2 {
+    font-size:1.2em !important;
+}
+
+.citypage_sidebar {
+width: 46% !important;
+float: right;
+}
+
+.widget_contact .widget_title {
+    background:#008EC8 !important;
+}
+
+
+.submit #save {
+font-size: 0.8em !important;
+float: none !important;
+}
+
+
+}
+
+
+@media all and (max-width: 420px) {
+  .citypage_contact_line1 {
+    font-size:0.9em !important;
+}
+
+.citypage_contact_line2 {
+    font-size:1.1em !important;
+}
+
+.citypage_sidebar {
+width: 50% !important;
+float: right;
+}
+
+.widget_contact .widget_title {
+    background:#008EC8 !important;
+}
+
+.submit #save {
+font-size: 0.7em !important;
+float: none !important;
+}
+
+
+}
+
+
+#search_box #search_box_input {
+font-family: inherit;
+border: 1px inset;
+border-radius: 3px;
+padding: 5px;
+margin: 0px;
+font-style: italic;
+width: 170px;
+vertical-align: bottom;
+line-height: 0.7em !important;
+float: left;
+}
+
+#search_box_submit {
+position: static;
+padding: 3px;
+cursor: pointer;
+float: right;
+}
+
+.blog_most_recent {
+    clear:both;
+}
+
+ /***4-Step Form  Page Fixes***/
+.contact_form #Zip {
+    width: 50% !important;
+}
+
+.contact_form #City {
+    width: 140px;
+    float: left;
+}
+
+.contact_form #State {
+    width: 25% !important;
+    margin-left: 5px;
+}
+
+@media (max-width: 795px) {
+/***contact  Page Fixes***/
+
+    .contact_form {
+        margin: auto;
+        width: 75% !important;
+    }
+
+    .contact_form .step {
+        width: 100% !important;
+        margin-bottom: 15px;
+        border: 2px solid #E4E4E4;
+    }
+
+    .contact_form .next {
+        float: right;
+        margin-top: 20px;
+        padding: 3px 10px;
+    }
+
+    .contact_form #Zip, .contact_f orm #City, .contact_form #State {
+        width: 100% !important;
+    }
+
+    .contact_form #Street {
+        width: 100% !important;
+    }
+
+    .contact_form #Message {
+        width: 100% !important;
+        height: 150px;
+    };
+}
+
+/***End 4-Step FOrm  Page Fixes***/
+
+.main-splash {
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom:10px;
+}
+
+
+ 
+ 
